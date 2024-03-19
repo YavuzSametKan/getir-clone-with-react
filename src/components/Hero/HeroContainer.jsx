@@ -3,7 +3,7 @@ import React from 'react';
 function HeroContainer({ children }) {
     return (
         <div
-            className={'container h-[500px] max-md:h-auto absolute flex justify-between place-items-center z-10 top-11 max-md:top-24 left-1/2 -translate-x-1/2'}
+            className={'container h-[500px] max-md:h-fit max-md:top-0 max-md:left-0 max-md:translate-x-0 absolute max-md:relative flex justify-between place-items-center z-10 top-11 left-1/2 -translate-x-1/2'}
         >
             {children}
         </div>

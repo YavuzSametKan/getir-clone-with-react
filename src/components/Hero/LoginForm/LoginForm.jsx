@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactFlagsSelect from "react-flags-select";
 import CountryToPhones from "./CountryToPhones";
-import SubmitButton from "./SubmitButton,";
+import SubmitButton from "./SubmitButton";
 import PhoneInput from "./PhoneInput";
 
 function LoginForm({selected, setSelected}) {
