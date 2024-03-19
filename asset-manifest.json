@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/getir-clone-with-react/static/css/main.95576455.css",
+    "main.js": "/getir-clone-with-react/static/js/main.6113b326.js",
+    "index.html": "/getir-clone-with-react/index.html",
+    "main.95576455.css.map": "/getir-clone-with-react/static/css/main.95576455.css.map",
+    "main.6113b326.js.map": "/getir-clone-with-react/static/js/main.6113b326.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95576455.css",
+    "static/js/main.6113b326.js"
+  ]
+}
