@@ -17,6 +17,7 @@ module.exports = {
     extend: {
       colors:{
         brand: '#4c3398',
+        brandSecond: '#ffd300',
         brandHover: '#5d3ebc',
         brandText: '#dbdbff'
       }

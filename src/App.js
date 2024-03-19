@@ -1,11 +1,11 @@
 import Header from "./components/Header/Header";
-import Carousel from "./components/Carousel/Carousel";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
       <div>
           <Header/>
-          <Carousel/>
+          <Hero/>
       </div>
   )
 }

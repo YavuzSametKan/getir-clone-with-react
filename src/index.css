@@ -22,4 +22,18 @@
     .service-list img{
         @apply grayscale;
     }
+
+    .flag-select button{
+        @apply border-none h-14 ring-2 ring-gray-200 focus:ring-brand transition duration-500;
+    }
+
+    input#phone{
+        appearance: textfield;
+    }
+
+    input#phone:focus + label{
+        top: 12px;
+        font-size: 12px;
+        color: #777;
+    }
 }
