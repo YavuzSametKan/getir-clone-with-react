@@ -7,7 +7,7 @@ import PhoneInput from "./PhoneInput";
 function LoginForm({selected, setSelected}) {
     return (
         <div
-            className={'bg-white min-w-[400px] max-md:w-full flex flex-col place-items-stretch p-5 rounded-lg gap-[15px]'}>
+            className={'bg-white sm:min-w-[400px] max-md:w-full flex flex-col place-items-stretch p-5 rounded-lg gap-[15px]'}>
             <span className={'font-semibold text-brand text-center'}>Giriş yap veya kayıt ol</span>
             <form className={'flex flex-col gap-2'}>
                 <div className={'flex gap-3 w-full'}>

@@ -7,8 +7,8 @@ import SelectedPageViewer from "./SelectedPageViewer";
 
 function Header() {
     return (
-        <header className={'bg-brand h-fit z-20'}>
-            <nav className={'container flex justify-between h-11 max-md:h-10 '}>
+        <header className={'bg-brand h-fit z-20 w-full md:fixed md:top-0'}>
+            <nav className={'container flex justify-between h-11 max-md:h-10'}>
                 <ul className={'service-list inline-flex items-end gap-x-1'}>
                     {serviceListItems.map((listItem, i) => (
                         <li
