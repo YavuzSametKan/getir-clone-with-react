@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/getir-clone-with-react/static/css/main.9bfe302f.css",
-    "main.js": "/getir-clone-with-react/static/js/main.d6df38a5.js",
+    "main.css": "/getir-clone-with-react/static/css/main.2a2b46a3.css",
+    "main.js": "/getir-clone-with-react/static/js/main.f7f02e93.js",
     "index.html": "/getir-clone-with-react/index.html",
-    "main.9bfe302f.css.map": "/getir-clone-with-react/static/css/main.9bfe302f.css.map",
-    "main.d6df38a5.js.map": "/getir-clone-with-react/static/js/main.d6df38a5.js.map"
+    "main.2a2b46a3.css.map": "/getir-clone-with-react/static/css/main.2a2b46a3.css.map",
+    "main.f7f02e93.js.map": "/getir-clone-with-react/static/js/main.f7f02e93.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bfe302f.css",
-    "static/js/main.d6df38a5.js"
+    "static/css/main.2a2b46a3.css",
+    "static/js/main.f7f02e93.js"
   ]
 }
