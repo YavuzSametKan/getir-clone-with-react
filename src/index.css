@@ -7,6 +7,10 @@
         font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     }
 
+    html{
+        background-color: #fafafa ;
+    }
+
     .service-list .service-list-item{
         @apply h-10 px-5 rounded-t-md flex items-center cursor-pointer hover:bg-brandHover;
     }
@@ -42,4 +46,8 @@
             background-image: none !important;
         }
     }
+
+
+
+
 }

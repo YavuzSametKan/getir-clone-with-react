@@ -1,8 +1,8 @@
 import React from 'react'
 import doodle from './images/doodle.png'
-import appGallery from './images/app-gallery.svg'
-import appStore from './images/app-store.svg'
-import playStore from './images/google-play-store.svg'
+import appGallery from '../images/app-gallery.svg'
+import appStore from '../images/app-store.svg'
+import playStore from '../images/google-play-store.svg'
 import phones from './images/phones.png'
 
 function MobileAppBanner() {

@@ -4,7 +4,7 @@ import Category from './Category'
 
 function Categories() {
     return (
-        <section className={'shadow-lg shadow-gray-200'}>
+        <section className={'shadow-lg shadow-gray-200 bg-white'}>
             <div className={'container py-6 bg-white'}>
                 <span className={'font-semibold text-gray-600 text-sm max-md:ml-5'}>Kategoriler</span>
 
