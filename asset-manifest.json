@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/getir-clone-with-react/static/css/main.5dbc17ac.css",
-    "main.js": "/getir-clone-with-react/static/js/main.7321bf56.js",
+    "main.css": "/getir-clone-with-react/static/css/main.c617fe18.css",
+    "main.js": "/getir-clone-with-react/static/js/main.2bdfc2f3.js",
     "static/media/firindan.png": "/getir-clone-with-react/static/media/firindan.83e500783ad925f221da.png",
     "static/media/kahvaltilik.png": "/getir-clone-with-react/static/media/kahvaltilik.ed17fd5d3b07a8c0e1d9.png",
     "static/media/yiyecek.png": "/getir-clone-with-react/static/media/yiyecek.05527a5c459e50b5c59a.png",
@@ -32,11 +32,11 @@
     "static/media/app-store.svg": "/getir-clone-with-react/static/media/app-store.141ed939fceebdcee96af608fa293b31.svg",
     "static/media/app-gallery.svg": "/getir-clone-with-react/static/media/app-gallery.4b890fa3167bc62f9069edaf45aa7f30.svg",
     "index.html": "/getir-clone-with-react/index.html",
-    "main.5dbc17ac.css.map": "/getir-clone-with-react/static/css/main.5dbc17ac.css.map",
-    "main.7321bf56.js.map": "/getir-clone-with-react/static/js/main.7321bf56.js.map"
+    "main.c617fe18.css.map": "/getir-clone-with-react/static/css/main.c617fe18.css.map",
+    "main.2bdfc2f3.js.map": "/getir-clone-with-react/static/js/main.2bdfc2f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dbc17ac.css",
-    "static/js/main.7321bf56.js"
+    "static/css/main.c617fe18.css",
+    "static/js/main.2bdfc2f3.js"
   ]
 }
