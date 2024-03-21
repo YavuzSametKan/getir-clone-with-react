@@ -16,7 +16,7 @@ function Carousel() {
                 <SwiperSlide key={i}>
                     <div
                         className={'bg-cover bg-center h-[500px]'}
-                        style={{backgroundImage: `url(${url})`}}
+                        style={{backgroundImage: `url(${require(`${url}`)})`}}
                     />
                 </SwiperSlide>
             ))}

@@ -7,7 +7,7 @@ function Category({ categoryImg, category }) {
         >
             <img
                 className={'w-12 ring-1 ring-gray-200 rounded'}
-                src={categoryImg}
+                src={require(`${categoryImg}`)}
                 alt={category}/>
             <span className={'text-gray-500 font-semibold text-center text-sm'}>{category}</span>
         </div>

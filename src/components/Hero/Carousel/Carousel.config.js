@@ -1,10 +1,10 @@
 import { Autoplay } from "swiper/modules";
 
 export const CarouselImages = [
-    'https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-1.jpg',
-    'https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-2.jpg',
-    'https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-3.jpg',
-    'https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-4.jpg',
+    './images/carousel-1.png',
+    './images/carousel-2.png',
+    './images/carousel-3.png',
+    './images/carousel-4.png',
 ]
 
 const SwiperConfig = {
