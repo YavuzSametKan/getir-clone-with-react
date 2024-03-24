@@ -15,10 +15,6 @@
         @apply h-10 px-5 rounded-t-md flex items-center cursor-pointer hover:bg-brandHover;
     }
 
-    .service-list .selected{
-        @apply bg-brandHover;
-    }
-
     .service-list .selected img{
         @apply grayscale-0;
     }
@@ -47,7 +43,17 @@
         }
     }
 
+    .location-select:hover .message{
+        display: block;
+    }
 
+    .kitchens-slider{
+        --swiper-navigation-size: 16px;
+        --swiper-navigation-color: #4c3398;
+    }
 
-
+    .kitchens-slider .swiper-button-next,
+    .kitchens-slider .swiper-button-prev{
+        @apply max-xl:hidden
+    }
 }

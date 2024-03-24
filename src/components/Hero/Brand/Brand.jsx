@@ -1,19 +1,20 @@
-import React from 'react';
-import LoginForm from "../LoginForm/LoginForm";
+import React from 'react'
 
-function Brand({ selected, setSelected }) {
+function Brand({formVisibility, brandConfig}) {
     return (
         <>
-            <div className={'flex flex-col justify-center gap-10 max-md:hidden'}>
-                <img
-                    width={180}
-                    src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"
-                    alt="getir logo"
-                />
+            <div className={`flex flex-col justify-center gap-10 ${formVisibility ? 'max-md:hidden' : null}`}>
+                { brandConfig?.img &&
+                    <img
+                        width={180}
+                        src={brandConfig?.img}
+                        alt="hero image"
+                    />
+                }
                 <span
                     className={'text-white text-4xl shadow-inner'}
                 >
-                    Dakikalar içinde kapında
+                    {brandConfig?.title}
                 </span>
             </div>
         </>

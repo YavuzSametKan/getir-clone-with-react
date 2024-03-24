@@ -5,13 +5,13 @@ function Avantage({src, title, description}) {
         <div
             className={'flex flex-col flex-1 justify-center items-center py-14 max-md:py-8 max-md:px-4 gap-6 bg-white rounded shadow-lg shadow-brand/5'}>
             <img
-                className={''}
+                className={'w-40'}
                 src={src}
                 alt={title}
             />
-            <div>
+            <div className={'px-10'}>
                 <h2
-                    className={'text-brand text-xl text-center'}
+                    className={'text-brand text-md lg:text-xl text-center'}
                 >
                     {title}
                 </h2>

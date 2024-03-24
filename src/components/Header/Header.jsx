@@ -1,11 +1,22 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import serviceListItems from "./Header.config"
 import {TbWorld} from "react-icons/tb"
 import {FaUser} from "react-icons/fa"
 import {FaUserPlus} from "react-icons/fa6"
 import SelectedPageViewer from "./SelectedPageViewer";
+import {useLocation, useNavigate} from "react-router-dom";
 
 function Header() {
+    const [selected, setSelected] = useState(null)
+    const location = useLocation()
+    const navigate = useNavigate()
+
+    useEffect(() => {
+        const currentPage = location.pathname.split('/')[1]
+        const selectedItem = serviceListItems.find(listItem => listItem.url === `/${currentPage}`)
+        setSelected(selectedItem)
+    }, [location])
+
     return (
         <header className={'bg-brand h-fit z-20 w-full md:fixed md:top-0'}>
             <nav className={'container flex justify-between h-11 max-md:h-10'}>
@@ -16,7 +27,12 @@ function Header() {
                             key={i}
                             className={
                                 `h-10 px-5 rounded-t-md flex items-center cursor-pointer hover:bg-brandHover max-md:h-9 max-md:px-3
-                                ${listItem?.selected === true && 'selected'}`
+                                ${listItem === selected && 'selected bg-brandHover'}`
+                            }
+                            onClick={
+                                () => {
+                                    navigate(listItem.url)
+                                }
                             }
                         >
                             <img
