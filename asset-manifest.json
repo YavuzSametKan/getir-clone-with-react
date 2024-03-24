@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/getir-clone-with-react/static/css/main.c617fe18.css",
-    "main.js": "/getir-clone-with-react/static/js/main.2bdfc2f3.js",
+    "main.css": "/getir-clone-with-react/static/css/main.8c3f608b.css",
+    "main.js": "/getir-clone-with-react/static/js/main.b9f90521.js",
     "static/media/firindan.png": "/getir-clone-with-react/static/media/firindan.83e500783ad925f221da.png",
     "static/media/kahvaltilik.png": "/getir-clone-with-react/static/media/kahvaltilik.ed17fd5d3b07a8c0e1d9.png",
     "static/media/yiyecek.png": "/getir-clone-with-react/static/media/yiyecek.05527a5c459e50b5c59a.png",
@@ -24,19 +24,22 @@
     "static/media/sut-urunleri.png": "/getir-clone-with-react/static/media/sut-urunleri.994c53c5a8360a118bee.png",
     "static/media/phones.png": "/getir-clone-with-react/static/media/phones.46d35eeff2e2e3643c70.png",
     "static/media/doodle.png": "/getir-clone-with-react/static/media/doodle.d659f9f1fd505c811c23.png",
+    "static/media/avantage1.svg": "/getir-clone-with-react/static/media/avantage1.71fe5640548ab5def63f180df7e79a5c.svg",
     "static/media/avantage-2.svg": "/getir-clone-with-react/static/media/avantage-2.34cd8b0ca1d547580d506566edfacf8d.svg",
+    "static/media/avantage3.svg": "/getir-clone-with-react/static/media/avantage3.17936a3941c6c42663b203911b0e744d.svg",
     "static/media/avantage-3.svg": "/getir-clone-with-react/static/media/avantage-3.6248544cb695830a2e25debd3c0f3d29.svg",
+    "static/media/avantage2.svg": "/getir-clone-with-react/static/media/avantage2.6248544cb695830a2e25debd3c0f3d29.svg",
     "static/media/license.png": "/getir-clone-with-react/static/media/license.33c159729adc8b4e2b94.png",
     "static/media/avantage-1.svg": "/getir-clone-with-react/static/media/avantage-1.a7a9238a73013642a6597c4db06653c1.svg",
     "static/media/google-play-store.svg": "/getir-clone-with-react/static/media/google-play-store.6b0c941b7d1a65d781fb4b644498be75.svg",
     "static/media/app-store.svg": "/getir-clone-with-react/static/media/app-store.141ed939fceebdcee96af608fa293b31.svg",
     "static/media/app-gallery.svg": "/getir-clone-with-react/static/media/app-gallery.4b890fa3167bc62f9069edaf45aa7f30.svg",
     "index.html": "/getir-clone-with-react/index.html",
-    "main.c617fe18.css.map": "/getir-clone-with-react/static/css/main.c617fe18.css.map",
-    "main.2bdfc2f3.js.map": "/getir-clone-with-react/static/js/main.2bdfc2f3.js.map"
+    "main.8c3f608b.css.map": "/getir-clone-with-react/static/css/main.8c3f608b.css.map",
+    "main.b9f90521.js.map": "/getir-clone-with-react/static/js/main.b9f90521.js.map"
   },
   "entrypoints": [
-    "static/css/main.c617fe18.css",
-    "static/js/main.2bdfc2f3.js"
+    "static/css/main.8c3f608b.css",
+    "static/js/main.b9f90521.js"
   ]
 }
