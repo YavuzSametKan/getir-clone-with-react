@@ -4,10 +4,10 @@ import CountryToPhones from "./CountryToPhones";
 import SubmitButton from "./SubmitButton";
 import PhoneInput from "./PhoneInput";
 
-function RegisterForm({selected, setSelected}) {
+function RegisterForm({selected, setSelected, locationSelector}) {
     return (
             <div
-                className={'bg-white sm:min-w-[400px] flex flex-col place-items-stretch p-5 gap-4'}
+                className={`bg-white sm:min-w-[400px] flex flex-col place-items-stretch p-5 gap-4 ${locationSelector ? 'rounded-b-lg' : 'rounded-lg'}`}
             >
                 <span className={'font-semibold text-brand text-center'}>Giriş yap veya kayıt ol</span>
                 <form className={'flex flex-col gap-2'}>

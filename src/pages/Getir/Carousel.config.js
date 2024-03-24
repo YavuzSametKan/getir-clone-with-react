@@ -1,18 +1,13 @@
-import { Autoplay } from "swiper/modules";
+import carousel1 from './images/carousel/carousel-1.png'
+import carousel2 from './images/carousel/carousel-2.png'
+import carousel3 from './images/carousel/carousel-3.png'
+import carousel4 from './images/carousel/carousel-4.png'
 
 export const CarouselSources = [
-    './images/GetirCarousel/carousel-1.png',
-    './images/GetirCarousel/carousel-2.png',
-    './images/GetirCarousel/carousel-3.png',
-    './images/GetirCarousel/carousel-4.png',
+    carousel1,
+    carousel2,
+    carousel3,
+    carousel4,
 ]
 
-const SwiperConfig = {
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
-    },
-    modules: [Autoplay],
-}
-
-export default SwiperConfig
+export default CarouselSources

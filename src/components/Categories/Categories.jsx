@@ -1,8 +1,7 @@
 import React from 'react';
-import CategoriesConfig from './Categories.config';
 import Category from './Category'
 
-function Categories() {
+function Categories({categoriesConfig}) {
     return (
         <section className={'shadow-lg shadow-gray-200 bg-white'}>
             <div className={'container py-6 bg-white'}>
@@ -10,7 +9,7 @@ function Categories() {
 
                 <div className={'grid grid-cols-10 max-lg:grid-cols-5 max-md:grid-cols-4 grid-flow-row gap-4'}>
                     {
-                        CategoriesConfig.map((category, i) => <Category key={i} {...category}/>)
+                        categoriesConfig.map((category, i) => <Category key={i} {...category}/>)
                     }
                 </div>
             </div>

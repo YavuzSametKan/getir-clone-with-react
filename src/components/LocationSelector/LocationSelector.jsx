@@ -7,7 +7,7 @@ function LocationSelector() {
     return (
         <>
             <div
-                className={'bg-white sm:min-w-[400px] max-md:w-full flex flex-col place-items-stretch p-5 gap-4'}
+                className={'bg-white sm:min-w-[400px] max-md:w-full flex flex-col place-items-stretch p-5 gap-4 rounded-t-lg'}
             >
                 <div className={'flex flex-col gap-4'}>
                     <span

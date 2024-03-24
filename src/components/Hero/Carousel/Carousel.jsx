@@ -59,7 +59,7 @@ function Carousel({formVisibility, height, carouselSources, swiperConfig, isVide
                         <SwiperSlide key={i}>
                             <div
                                 className={`bg-cover bg-center`}
-                                style={{backgroundImage: `url(${require(`${url}`)})`, height: height}}
+                                style={{backgroundImage: `url(${url})`, height: height}}
                             />
                         </SwiperSlide>
                     ))}

@@ -1,6 +1,6 @@
-import avantage1 from './images/avantage-1.svg'
-import avantage2 from './images/avantage-2.svg'
-import avantage3 from './images/avantage-3.svg'
+import avantage1 from './images/avantages/avantage-1.svg'
+import avantage2 from './images/avantages/avantage-2.svg'
+import avantage3 from './images/avantages/avantage-3.svg'
 
 const avantagesConfig = [
     {

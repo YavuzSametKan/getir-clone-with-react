@@ -1,25 +1,27 @@
 import React from 'react';
 import Header from "../../components/Header/Header";
+import HeaderSpacingContainer from "../../components/Header/HeaderSpacingContainer";
 import Hero from "../../components/Hero/Hero";
+import CarouselSources from "./Carousel.config";
 import Categories from "../../components/Categories/Categories";
 import MobileAppBanner from "../../components/MobileAppBanner/MobileAppBanner";
-import HeaderSpacingContainer from "../../components/Header/HeaderSpacingContainer";
 import Avantages from "../../components/Avantages/Avantages";
-import Footer from "../../components/Footer/Footer";
-import { CarouselSources } from "./Carousel.config";
 import avantagesConfig from "./Avantage.config";
+import Footer from "../../components/Footer/Footer";
 import phones from './images/mobile-app-banner/phones.png'
 import CategoriesConfig from "./Categories.config";
+import getirBuyukLogo from '../../components/Header/images/logos/getirbuyuk.svg'
 
-function Getir() {
+function GetirBuyuk() {
     return (
         <>
             <Header/>
             <HeaderSpacingContainer>
                 <Hero
                     brandConfig={{
-                        img: 'https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg',
-                        title: 'Dakikalar içinde kapında'
+                        img: getirBuyukLogo,
+                        size: 325,
+                        title: 'Binlerce ürün ve kaçmaz fiyatlar kapında!'
                     }}
                     carouselSources={CarouselSources}
                     locationSelector={false}
@@ -28,7 +30,7 @@ function Getir() {
                 <MobileAppBanner
                     mobileAppBannerConfig={{
                         title: "Getir'i İndir!",
-                        description: 'İstediğiniz ürünleri dakikalar içinde kapınıza getirelim.',
+                        description: 'Market ihtiyaçlarını kapına kadar getirelim.',
                         img: phones
                     }}
                 />
@@ -39,4 +41,4 @@ function Getir() {
     );
 }
 
-export default Getir;
+export default GetirBuyuk;

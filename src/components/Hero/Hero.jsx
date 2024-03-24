@@ -43,7 +43,7 @@ function Hero({
                     brandConfig={brandConfig}
                 />
                 <div
-                    className={`rounded-lg overflow-hidden max-md:w-full`}
+                    className={`max-md:w-full`}
                 >
                     {
                         (locationSelector && formVisibility) &&
@@ -58,6 +58,7 @@ function Hero({
                         <RegisterForm
                             selected={selected}
                             setSelected={setSelected}
+                            locationSelector={locationSelector}
                         />
                     }
                 </div>
