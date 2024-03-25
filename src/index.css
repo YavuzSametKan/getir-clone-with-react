@@ -27,14 +27,15 @@
         @apply border-none h-14 ring-2 ring-gray-200 focus:ring-brand transition duration-500;
     }
 
-    input#phone{
+    input#phoneNumber{
         appearance: textfield;
     }
 
-    input#phone:focus + label{
+    input#phoneNumber:not(:placeholder-shown) + label,
+    input#phoneNumber:focus + label{
         top: 12px;
         font-size: 12px;
-        color: #777;
+        color: #4c3398;
     }
 
     @media only screen and (max-width: 768px) {
