@@ -7,7 +7,7 @@
 
 ### UI Video
 
-[![UI Video](https://img.youtube.com/vi/4qswjdsFDU0/0.jpg)](https://www.youtube.com/watch?v=4qswjdsFDU0&t)
+You can visit UI video [here.](https://www.youtube.com/watch?v=4qswjdsFDU0&t)
 
 ### Application
 
