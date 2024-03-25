@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/getir-clone-with-react/static/css/main.6bb93fbc.css",
-    "main.js": "/getir-clone-with-react/static/js/main.57300b55.js",
+    "main.css": "/getir-clone-with-react/static/css/main.ccfcbac6.css",
+    "main.js": "/getir-clone-with-react/static/js/main.0fea9de1.js",
     "static/media/firindan.png": "/getir-clone-with-react/static/media/firindan.83e500783ad925f221da.png",
     "static/media/kahvaltilik.png": "/getir-clone-with-react/static/media/kahvaltilik.ed17fd5d3b07a8c0e1d9.png",
     "static/media/yiyecek.png": "/getir-clone-with-react/static/media/yiyecek.05527a5c459e50b5c59a.png",
@@ -87,11 +87,11 @@
     "static/media/getirsu.svg": "/getir-clone-with-react/static/media/getirsu.4cc7095412976b8be96bb964c384282c.svg",
     "static/media/getirbuyuk.svg": "/getir-clone-with-react/static/media/getirbuyuk.3425cc3f1929eb189f28a7f88e0a051f.svg",
     "index.html": "/getir-clone-with-react/index.html",
-    "main.6bb93fbc.css.map": "/getir-clone-with-react/static/css/main.6bb93fbc.css.map",
-    "main.57300b55.js.map": "/getir-clone-with-react/static/js/main.57300b55.js.map"
+    "main.ccfcbac6.css.map": "/getir-clone-with-react/static/css/main.ccfcbac6.css.map",
+    "main.0fea9de1.js.map": "/getir-clone-with-react/static/js/main.0fea9de1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bb93fbc.css",
-    "static/js/main.57300b55.js"
+    "static/css/main.ccfcbac6.css",
+    "static/js/main.0fea9de1.js"
   ]
 }
