@@ -1,28 +1,26 @@
 import React from 'react';
-import Header from "../../components/Header/Header";
+import CarouselSources from "./Carousel.config";
 import Hero from "../../components/Hero/Hero";
-import Categories from "../../components/Categories/Categories";
-import MobileAppBanner from "../../components/MobileAppBanner/MobileAppBanner";
+import Header from "../../components/Header/Header";
 import HeaderSpacingContainer from "../../components/Header/HeaderSpacingContainer";
-import Avantages from "../../components/Avantages/Avantages";
-import Footer from "../../components/Footer/Footer";
-import { CarouselSources } from "./Carousel.config";
-import avantagesConfig from "./Avantage.config";
-import phones from '../../components/MobileAppBanner/images/phones.png'
 import CategoriesConfig from "./Categories.config";
+import Categories from "../../components/Categories/Categories";
+import Avantages from "../../components/Avantages/Avantages";
+import avantagesConfig from "./Avantage.config";
+import Footer from "../../components/Footer/Footer";
+import phones from "../../components/MobileAppBanner/images/phones.png";
+import MobileAppBanner from "../../components/MobileAppBanner/MobileAppBanner";
+import AreYouOwner from "../../components/AreYouOwner/AreYouOwner";
 
-function Getir() {
+function GetirCarsi() {
     return (
         <>
             <Header/>
             <HeaderSpacingContainer>
                 <Hero
-                    brandConfig={{
-                        img: 'https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg',
-                        title: 'Dakikalar içinde kapında'
-                    }}
                     carouselSources={CarouselSources}
-                    locationSelector={false}
+                    filter={false}
+                    locationSelectorTitle={false}
                 />
                 <Categories categoriesConfig={CategoriesConfig}/>
                 <MobileAppBanner
@@ -33,10 +31,16 @@ function Getir() {
                     }}
                 />
                 <Avantages avantagesConfig={avantagesConfig}/>
+                <AreYouOwner
+                    areYouOwnerConfig={{
+                        title: 'İşletme sabibi misiniz?',
+                        description: 'GetirÇarşı işletme iş ortaklarından biri ol, işini daha az maliyetle büyüt, müşteri memnuniyetini artır.\n'
+                    }}
+                />
                 <Footer/>
             </HeaderSpacingContainer>
         </>
     );
 }
 
-export default Getir;
+export default GetirCarsi;

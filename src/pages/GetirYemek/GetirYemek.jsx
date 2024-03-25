@@ -8,6 +8,7 @@ import Footer from "../../components/Footer/Footer";
 import avantagesConfig from "./Avantage.config";
 import AreYouOwner from "../../components/AreYouOwner/AreYouOwner";
 import KitchensSlider from "../../components/KitchensSlider/KitchensSlider";
+import kitchenSliderConfig from "./KitchenSlider.config";
 
 function GetirYemek() {
     return (
@@ -20,7 +21,7 @@ function GetirYemek() {
                     carouselSources={CarouselSources}
                     filter={false}
                 />
-                <KitchensSlider/>
+                <KitchensSlider kitchensSliderConfig={kitchenSliderConfig}/>
                 <Avantages avantagesConfig={avantagesConfig}/>
                 <AreYouOwner
                     areYouOwnerConfig={{

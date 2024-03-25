@@ -16,6 +16,7 @@ function Hero({
                   brandConfig,
                   formVisibility,
                   locationSelector,
+                  locationSelectorTitle,
                   filter
 }) {
     const [selected, setSelected] = useState("TR")
@@ -48,7 +49,9 @@ function Hero({
                     {
                         (locationSelector && formVisibility) &&
                         <>
-                            <LocationSelector/>
+                            <LocationSelector
+                                locationSelectorTitle={locationSelectorTitle}
+                            />
                             <Seperator title='veya'/>
                         </>
                     }
